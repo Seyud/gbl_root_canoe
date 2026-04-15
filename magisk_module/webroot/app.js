@@ -1,4 +1,4 @@
-const IMAGE_NAMES = ["abl", "xbl", "xbl_config", "xbl_ac_config", "xbl_ramdump"];
+const IMAGE_NAMES = ["abl"];
 
 const state = {
   confirmStep: 0,
