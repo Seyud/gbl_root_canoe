@@ -121,7 +121,7 @@ function renderStatus(status) {
 
   elements.currentSlot.textContent = currentSlot;
   elements.targetSlot.textContent = targetSlot;
-  elements.imageCount.textContent = String(IMAGE_NAMES.length + 1); // +1 for efisp
+  elements.imageCount.textContent = String(IMAGE_NAMES.length);
   elements.taskMessage.textContent = taskMessage;
   elements.updatedAt.textContent = status.UPDATED_AT || "-";
 
